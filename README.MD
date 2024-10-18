@@ -1,17 +1,16 @@
-Note: This Python script has been compiled as a executable file and works on Windows operating systems.
+      This Python script has been compiled as a executable file and works on Windows operating systems.
+Note: In order to run this script you must copy the "Firewall Block Folder Win.exe" in the directory you want firewalled (the directory you want to block in and out internet access to, via Firewall rules).
 
 
-Therefore "Firewall Block Folder Win.exe" would perform the following actions:
+"Firewall Block Folder Win.exe" would perform the following actions:
 
-1. In order to run this script you must copy the "Firewall Block Folder Win.exe" in the directory you want (the directory you want to block internet access to, via Firewall rules).
+1. It starts in the current working directory, as the environment in which the script is running in (so the .exe file should be copied in the main directory you need to be Firewalled).
 
-2. It starts in the current working directory, as the environment in which the script is running in (so the .exe file should be copied in the main directory you need to be Firewalled).
+2. It verifies if it runs as administrator and if not, it will try to run it as the admin.
 
-3. It verifies if it runs as administrator and if not, it will try to run it as the admin.
+3. It identifies all the files in the current directory (including in all sub-folder levels).
 
-4. It identifies all the files in the current directory (including in all sub-folder levels).
-
-5. It starts setting up rules for each of the binary files (.bin, .exe, .dll, .setup), while checking the entire directory structure.
+4. It starts setting up rules for each of the binary files (.bin, .exe, .dll, .setup), while checking the entire directory structure.
 
 
 
