@@ -1,5 +1,5 @@
       This Python script has been compiled as a executable file and works on Windows operating systems.
-Note: In order to run this script you must copy the "Firewall Block Folder Win.exe" in the directory you want firewalled (the directory you want to block in and out internet access to, via Firewall rules).
+Note: In order to run this script you must copy the executable file "Firewall Block Folder Win.exe" in the directory you want firewalled (the directory you want to block in and out internet access to, via Firewall rules).
 
 
 "Firewall Block Folder Win.exe" would perform the following actions:
