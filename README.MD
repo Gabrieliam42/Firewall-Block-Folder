@@ -18,7 +18,7 @@ Features:
 
 Admin Privileges: The script checks if it has admin privileges and if not, it tries to grant itself administrator rights.
 
-Directory Structure Preservation: The script maintains the directory structure and its sub-folders in the respective directory when processing Firewall rules for the specific file types, it doesn't modify any file, folder or subfolder.
+Directory Structure Preservation: The script maintains the directory structure and its sub-folders in the respective directory when processing Firewall rules for the specific file types, it doesn't modify any file, folder, subfolder or path.
 
 Usage:
 
