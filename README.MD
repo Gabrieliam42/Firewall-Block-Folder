@@ -2,7 +2,7 @@
 Note: In order to run this script you must copy the executable file "Firewall Block Folder Win.exe" in the directory you want firewalled (the directory you want to block in and out internet access to, via Firewall rules).
 
 
-"Firewall Block Folder Win.exe" would perform the following actions:
+"Firewall Block Folder Win.exe" performs the following actions:
 
 1. It starts in the current working directory, as the environment in which the script is running in (so the .exe file should be copied in the main directory you need to be Firewalled).
 
