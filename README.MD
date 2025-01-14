@@ -1,4 +1,4 @@
-#### This Python script has been compiled as a executable file and works on Windows operating systems.
+#### This Cyber Security Python script has been compiled as a executable file and works on Windows operating systems.
 ### Note: In order to run this script you must copy the executable file (FirewallBlockFolder.exe) in the directory you want firewalled (the directory you want to block in and out internet access to, via Firewall rules).
 
 
