@@ -25,6 +25,8 @@ Usage:
 As a user you can copy "FirewallBlockFolder.exe" in the directory you want, and run it from that location. A window will appear and it will show you each path and respective processed file.
 The script will create Firewall rules for each of the binary files (.bin, .exe, .dll, .setup), that will block internet access to and from the redpective directory.
 
+"FirewallBlockFolder.bat" is just a separate Windows Batch version of this script, you copy it in the directory you want, and run it from that location.
+
 Please note that this script requires admin privileges to run. If it does not have admin privileges, it will try to grant required privileges to run, if they are declined by the system the script will exit.
 
 This script is particularly useful when you want to test software, but you don't want it to send any data to it's servers.
