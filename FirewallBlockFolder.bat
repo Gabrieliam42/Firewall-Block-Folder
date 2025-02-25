@@ -29,10 +29,7 @@ if '%errorlevel%' NEQ '0' (
 @setlocal enableextensions
 @cd /d "%~dp0"
 set location=%cd%
-del "___ALLOWED___"
-del "___ALLOWED_LAN___"
-del "___FIREWALLED___"
-del "___UNFIREWALLED___"
+
 FOR /r %%G in ("*.exe","*.dll","*.bin","*.setup","*.scr","*.tmp","*.ms","*.mse","*.msc","*.mcr","*.mzp") Do (@echo %%G
 NETSH advfirewall firewall add rule name="*Blocked" dir=in program="%%G" action="block" enable="yes")
 FOR /r %%G in ("*.exe","*.dll","*.bin","*.setup","*.scr","*.tmp","*.ms","*.mse","*.msc","*.mcr","*.mzp") Do (@echo %%G
