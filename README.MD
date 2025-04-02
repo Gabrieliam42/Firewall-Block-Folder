@@ -23,7 +23,7 @@ Directory Structure Preservation: The script maintains the directory structure a
 Usage:
 
 As a user you can copy "FirewallBlockFolder.exe" in the directory you want, and run it from that location. A window will appear and it will show you each path and respective processed file.
-The script will create Firewall rules for each of the binary files (.bin, .exe, .dll, .setup), that will block internet access to and from the redpective directory.
+The script will create blocking Firewall rules for each of the binary files (.bin, .exe, .dll, .setup), that will block internet access to and from the respective directory.
 
 "FirewallBlockFolder.bat" is just a separate Windows Batch version of this script, you copy it in the directory you want, and run it from that location.
 
@@ -31,8 +31,7 @@ Please note that this script requires admin privileges to run. If it does not ha
 
 This script is particularly useful when you want to test software, but you don't want it to send any data to it's servers.
 
-Disclaimer: Please use this script responsibly. Always ensure you have a backup of important files and folders.
-The author is not responsible for any loss of data. Use at your own consideration.
+NOTE: "FirewallAllowFolderUpdate" version will create allowing Firewall rules for each of the binary files (.bin, .exe, .dll, .setup), that will allow internet access to and from the respective directory.
 
 
 
