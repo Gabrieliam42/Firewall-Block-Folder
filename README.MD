@@ -13,6 +13,8 @@
 4. It starts setting up rules for each of the binary files (.bin, .exe, .dll, .setup), while checking the entire directory structure.
 
 
+[Download Latest Release (v1.0.0)](https://github.com/Gabrieliam42/Firewall-Block-Folder/releases/tag/1.0.0)
+
 
 Features:
 
@@ -48,10 +50,10 @@ NOTE: "FirewallAllowFolderUpdate" version will create allowing Firewall rules fo
 
 
 
-[Download Latest Release (v1.0.0)](https://github.com/Gabrieliam42/Firewall-Block-Folder/releases/tag/1.0.0)
 
 **Script Developer:** Gabriel Mihai Sandu  
 **GitHub Profile:** [https://github.com/Gabrieliam42](https://github.com/Gabrieliam42)
+
 
 
 
